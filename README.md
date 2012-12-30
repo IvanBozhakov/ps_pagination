@@ -85,9 +85,9 @@ You can pass your a variable string as the fifth argument while creating the pag
     $pager = new PS_Pagination($conn, $sql, 8, 3, $my_variables);
 ##Functions Overview
 
-renderFirst – This function displays the link to the first page
-renderLast – This function displays the link to the last page
-renderNext – This function displays link to next page
-renderPrevious – This function displays link to previous page
-renderNav – Displays the page links
-renderFullNav – This function displays all the pagination links in one go
+      renderFirst – This function displays the link to the first page
+      renderLast – This function displays the link to the last page
+      renderNext – This function displays link to next page
+      renderPrevious – This function displays link to previous page
+      renderNav – Displays the page links
+      renderFullNav – This function displays all the pagination links in one go
