@@ -35,12 +35,8 @@ The final step is to display the pagination links. You can use the renderFullNav
       
       
       include('ps_pagination.php');
-      
-      
       $conn = mysql_connect('localhost', 'username', 'password');
       mysql_select_db('testdb',$conn);
-      
-      
       $sql = 'SELECT * FROM pages';
       
       //Create a PS_Pagination object
