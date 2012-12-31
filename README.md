@@ -33,14 +33,14 @@ Next, call the paginate() function. This function returns a paginated result set
 The final step is to display the pagination links. You can use the renderFullNav() function to generate and display the links in one go or you can use individual function calls to display each link separately.
 
       
-      //Include the PS_Pagination class
+      
       include('ps_pagination.php');
       
-      //Connect to mysql db
+      
       $conn = mysql_connect('localhost', 'username', 'password');
       mysql_select_db('testdb',$conn);
       
-      //Query to pass to pagination class
+      
       $sql = 'SELECT * FROM pages';
       
       //Create a PS_Pagination object
